@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Friends Hangout App</string>
+    <string name="login_button">login</string>
+    <string name="password_text_input_layout">password</string>
+    <string name="login_text_view">login</string>
+    <string name="forgot_password_text_view">forgot password?</string>
+    <string name="register_text_view">register</string>
 </resources>
