@@ -6,4 +6,6 @@
     <string name="forgot_password_text_view">forgot password?</string>
     <string name="register_text_view">register</string>
     <string name="email_username_text_input_layout">email or username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
