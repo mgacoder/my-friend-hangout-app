@@ -8,4 +8,12 @@
     <string name="email_username_text_input_layout">email or username</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_email_text_input_layout">enter email</string>
+    <string name="send_email_button">send email</string>
+    <string name="register_button">register</string>
+    <string name="confirm_password_text_input_layout">confirm password</string>
+    <string name="email_text_input_layout">email</string>
+    <string name="username_text_input_layout">username</string>
+    <string name="last_name_text_input_layout">last name</string>
+    <string name="first_name_text_input_layout">first name</string>
 </resources>
