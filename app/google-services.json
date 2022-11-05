@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628383888388",
+    "project_id": "my-friends-hangout-app",
+    "storage_bucket": "my-friends-hangout-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628383888388:android:bc022421cc4cbfb4aa7151",
+        "android_client_info": {
+          "package_name": "com.magapps.myfriendshangoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628383888388-44dhgmup7b4tajr943bqcaksu74a307o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANQRsHVUk_JU9iPM_v94k0UL_frTyTscU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628383888388-44dhgmup7b4tajr943bqcaksu74a307o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

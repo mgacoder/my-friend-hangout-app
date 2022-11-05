@@ -25,10 +25,13 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.buttonRegister.setOnClickListener {
+        binding.buttonLogin.setOnClickListener {
             //check that email or username exist and password is correct
             //then we go to the main activity
+
         }
+
+
 
 
 
