@@ -1,11 +1,25 @@
 package com.magapps.myfriendshangoutapp
 
+import java.io.Serializable
+
 data class User(
-    private val firstName: String,
-    private val lastName: String,
-    private val email: String,
-    private val password: String,
-    private val confirmPassword: String,
-    private val isLoggedIn: Boolean,
-    private val status: String
-)
+    val firstName: String,
+    val lastName: String,
+    val username: String,
+    val email: String,
+    val password: String,
+    val confirmPassword: String,
+    val isLoggedIn: Boolean,
+    val status: String
+): Serializable{
+    override fun toString(): String {
+        return """
+            $firstName $lastName
+            $username
+            $email
+            $password
+            $isLoggedIn
+            $status
+        """.trimIndent()
+    }
+}
