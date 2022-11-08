@@ -15,4 +15,6 @@
     <string name="username_text_input_layout">username</string>
     <string name="last_name_text_input_layout">last name</string>
     <string name="first_name_text_input_layout">first name</string>
+    <string name="friends">Friends</string>
+    <string name="me">Me</string>
 </resources>

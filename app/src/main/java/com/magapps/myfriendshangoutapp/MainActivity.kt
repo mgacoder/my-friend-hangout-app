@@ -27,10 +27,12 @@ class MainActivity : AppCompatActivity() {
         isLoggedIn(object : LoginCallBack<Boolean> {
             override fun callback(data: Boolean) {
                 if (data) {
-                    goToFriendsHangoutPage()
-
+                    //goToFriendsHangoutPage()
+                    Toast.makeText(applicationContext, "WE did it!", Toast.LENGTH_LONG).show()
                 } else {
-                    goToLoginPage()
+                    //goToLoginPage()
+                    val intent = Intent(applicationContext, LoginActivity::class.java)
+                    startActivity(intent)
                 }
             }
         })
