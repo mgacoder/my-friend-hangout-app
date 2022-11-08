@@ -24,7 +24,7 @@ class RegistrationActivity : AppCompatActivity() {
     }
 
     private fun registerUser() {
-        println("we ar in registerUser()")
+
         val user = User(
             binding.editTextFirstName.text.toString(),
             binding.editTextLastName.text.toString(),
@@ -35,7 +35,6 @@ class RegistrationActivity : AppCompatActivity() {
             true,
             "active"
         )
-        println(user.toString())
 
         rootNode = FirebaseDatabase.getInstance("https://my-friends-hangout-app-default-rtdb.firebaseio.com")
         reference = rootNode.getReference("Users")
