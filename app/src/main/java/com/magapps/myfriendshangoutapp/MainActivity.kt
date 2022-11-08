@@ -27,24 +27,14 @@ class MainActivity : AppCompatActivity() {
         isLoggedIn(object : LoginCallBack<Boolean> {
             override fun callback(data: Boolean) {
                 if (data) {
-                    //goToFriendsHangoutPage()
-                    Toast.makeText(applicationContext, "WE did it!", Toast.LENGTH_LONG).show()
+                    val intent = Intent(applicationContext, FriendsHangoutActivity::class.java)
+                    startActivity(intent)
                 } else {
-                    //goToLoginPage()
                     val intent = Intent(applicationContext, LoginActivity::class.java)
                     startActivity(intent)
                 }
             }
         })
-    }
-
-    private fun goToLoginPage() {
-        val intent = Intent(this, LoginActivity::class.java)
-        startActivity(intent)
-    }
-
-    private fun goToFriendsHangoutPage() {
-        Toast.makeText(this, "WE did it!", Toast.LENGTH_LONG).show()
     }
 
     private fun isLoggedIn(loginCallback: LoginCallBack<Boolean>){

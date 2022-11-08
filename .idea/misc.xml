@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_forgot_password.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_friends_hangout.xml" value="0.25951261222744765" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_friends_list.xml" value="0.25951261222744765" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.2586575459598119" />
         <entry key="app/src/main/res/layout/fragment_registration.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_user.xml" value="0.25951261222744765" />
         <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.2586575459598119" />
       </map>
     </option>

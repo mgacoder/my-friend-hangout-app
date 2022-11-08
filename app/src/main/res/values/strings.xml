@@ -17,4 +17,6 @@
     <string name="first_name_text_input_layout">first name</string>
     <string name="friends">Friends</string>
     <string name="me">Me</string>
+    <string name="inside_user_fragment">INSIDE USER FRAGMENT!</string>
+    <string name="inside_friends_list">INSIDE FRIENDS LIST!</string>
 </resources>
