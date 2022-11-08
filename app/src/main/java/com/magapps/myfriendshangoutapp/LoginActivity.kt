@@ -51,7 +51,7 @@ class LoginActivity : AppCompatActivity() {
                     val editor: SharedPreferences.Editor = sharedPreference.edit()
                     editor.putString("username", username)
                     editor.apply()
-
+                    reference.child(username).child("loggedIn").setValue(true)
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
 

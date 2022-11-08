@@ -19,4 +19,5 @@
     <string name="me">Me</string>
     <string name="inside_user_fragment">INSIDE USER FRAGMENT!</string>
     <string name="inside_friends_list">INSIDE FRIENDS LIST!</string>
+    <string name="logout">logout</string>
 </resources>

@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isLoggedIn(loginCallback: LoginCallBack<Boolean>){
-        val sp = applicationContext.getSharedPreferences("Username", MODE_PRIVATE)
-        val username: String? = sp.getString("username", null)
+        val sharedPreference = applicationContext.getSharedPreferences("Username", MODE_PRIVATE)
+        val username: String? = sharedPreference.getString("username", null)
         val reference = FirebaseDatabase.getInstance().getReference("Users").child(username.toString())
         var isLoggedIn = false
         reference.addValueEventListener(object: ValueEventListener{
